@@ -1,0 +1,13 @@
+{
+  "name": "professor-assistant-plugin",
+  "description": "A plugin bundling the professor-assistant agent and skills to help reduce professor workload through intelligent automation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "professor-assistant"
+  },
+  "license": "MIT",
+  "keywords": ["professor", "assistant", "academia", "research"],
+  "category": "academia",
+  "agents": "agents/",
+  "skills": ["skills/"]
+}

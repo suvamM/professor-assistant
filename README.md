@@ -15,13 +15,14 @@ This repository hosts the **professor-assistant-marketplace** — a Copilot CLI 
 
 ## Installation
 
+### GitHub Copilot CLI
+Follow the instructions outlined [here](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli).
+
 ### Add the Marketplace
 
 ```bash
-copilot plugin marketplace add <owner>/professor-assistant
+copilot plugin marketplace add suvamm/professor-assistant
 ```
-
-Replace `<owner>` with the GitHub username or organization hosting this repository.
 
 ### Install the Plugin
 

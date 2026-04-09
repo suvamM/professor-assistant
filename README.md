@@ -1,6 +1,6 @@
 # professor-assistant
 
-A super helpful professor assistant for professors (mainly assistant professors :D )
+A super helpful professor assistant for professors 🎓 (mainly assistant professors 😊 ).
 
 ## Overview
 
@@ -11,7 +11,7 @@ This repository hosts the **professor-assistant-marketplace** — a Copilot CLI 
 - **Marketplace**: `professor-assistant-marketplace` — a registry of plugins for academia
 - **Plugin**: `professor-assistant-plugin` — bundles the agent and skills below
 - **Agent**: `professor-assistant` — a warm, knowledgeable academic companion
-- **Skill**: `welcome-researcher` — greets a user, searches for their academic profile, and provides a personalized summary of their work
+- **Skill**: `welcome-researcher` — greets a user, manages persistent memory, and provides a personalized onboarding experience
 
 ## Installation
 
@@ -57,11 +57,11 @@ Or invoke the skill directly:
 Use the /welcome-researcher skill
 ```
 
-The agent will:
+The agent will automatically invoke the `welcome-researcher` skill at the start of every session:
 
-1. Ask for your **name** and **institutional affiliation**
-2. Search the internet for your academic profile and publications
-3. Provide a **friendly, personalized welcome** with a summary of your research
+- **First session**: Asks for your name and affiliation, searches for your academic profile, offers to save your details locally to `~/prof-asst-memory/` for future sessions, and greets you with helpful use cases.
+- **Returning session**: Reads your saved profile, confirms your identity, and gets you straight to work — no repeated lookups.
+- **Privacy**: You can decline memory storage or delete `~/prof-asst-memory/` at any time.
 
 ## Repository Structure
 
